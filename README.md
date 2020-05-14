@@ -22,9 +22,10 @@ UITestFramework:
 
     --reports:存放执行后生成的测试报告
 
-    --Tools:浏览器驱动及一些三方库存放文件夹
+    --Tools:浏览器驱动及一些三方库存放文件夹, HTMLTestRunner.py 需要放到python虚拟环境中，控制台shell尝试 import HTMLTestRunner，如果成功则可用
 
 run.py: 测试框架执行入口文件
+
 
 
 
