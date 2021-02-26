@@ -3,8 +3,14 @@ from Base.base_page import BasePage
 
 
 class HomePage(BasePage):
+    # 输入框1
     input_box = "id=>kw"
+    # 输入框2
+
+    # 百度一下按钮
     search_submit_btn = "xpath=>//*[@id='su']"
+
+    # ------华丽的分割线-------
 
     def type_search(self, text):
         self.send_keys(self.input_box, text)

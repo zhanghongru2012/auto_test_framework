@@ -1,0 +1,42 @@
+2021-01-29 13:40:50,559 - BasePage - INFO - find '  ' success by id  value: user 
+2021-01-29 13:40:50,676 - BasePage - INFO - 已输入/上传至 ' admin ' 
+2021-01-29 13:40:50,720 - BasePage - INFO - find '  ' success by id  value: pwd 
+2021-01-29 13:40:50,815 - BasePage - INFO - 已输入/上传至 ' 123456 ' 
+2021-01-29 13:40:50,857 - BasePage - INFO - find ' 登录 ' success by xpath value: /html/body/div[2]/div/div[2]/form/div[3]/button 
+2021-01-29 13:40:52,507 - BasePage - INFO - 元素已点击
+2021-01-29 13:40:52,625 - BasePage - INFO - find ' 订单管理 ' success by xpath value: /html/body/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/div[1]/div/div/ul/li/ul/li[5]/div/span[2] 
+2021-01-29 13:40:52,715 - BasePage - INFO - 元素已点击
+2021-01-29 13:40:53,179 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/iframe 
+2021-01-29 13:40:56,390 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/form/div[3]/div[2]/input 
+2021-01-29 13:40:56,526 - BasePage - INFO - 已输入/上传至 ' 52101230 ' 
+2021-01-29 13:40:56,564 - BasePage - INFO - find ' 查询 ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/form/button 
+2021-01-29 13:40:56,663 - BasePage - INFO - 元素已点击
+2021-01-29 13:40:56,846 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[2]/div/div/div[1]/div/div/div/div[2]/div 
+2021-01-29 13:40:57,157 - BasePage - INFO - find ' 序号
+订单编号
+订单类型
+下单时间
+最新发货时间
+预计发货时间
+商品名称
+商品型号
+商品总量(吨)
+待发货量(吨)
+商品单价
+商品总价(元)
+运费
+合同总价
+1
+52101230
+2021-01-21 16:54:05
+2022-02-22
+zzzhrApiAutoTest（勿动）
+zhr自动化测试用型号（勿删）
+30
+30
+100
+3000
+0
+3000 ' success by xpath value: /html/body/div[2]/div/div[2]/div/div/div[1]/div/div/div/div[1] 
+2021-01-29 13:40:57,219 - BasePage - INFO - find ' 审核   ' success by xpath value: /html/body/div[2]/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div[1]/div/div[1]/div[28]/div/div/label[1] 
+2021-01-29 13:40:57,310 - BasePage - INFO - 元素已点击

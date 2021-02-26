@@ -1,0 +1,88 @@
+2021-01-22 14:37:28,308 - BasePage - INFO - find '  ' success by id  value: user 
+2021-01-22 14:37:28,694 - BasePage - INFO - 已输入/上传至 ' admin ' 
+2021-01-22 14:37:28,748 - BasePage - INFO - find '  ' success by id  value: pwd 
+2021-01-22 14:37:28,895 - BasePage - INFO - 已输入/上传至 ' 123456 ' 
+2021-01-22 14:37:28,945 - BasePage - INFO - find ' 登录 ' success by xpath value: /html/body/div[2]/div/div[2]/form/div[3]/button 
+2021-01-22 14:37:31,092 - BasePage - INFO - 元素已点击
+2021-01-22 14:37:31,180 - BasePage - INFO - find ' 商品管理 ' success by xpath value: /html/body/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/div[1]/div/div/ul/li/ul/li[8]/div/span[2] 
+2021-01-22 14:37:31,410 - BasePage - INFO - 元素已点击
+2021-01-22 14:37:32,023 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/iframe 
+2021-01-22 14:37:35,671 - BasePage - INFO - find ' 添加商品 ' success by xpath value: /html/body/div[2]/div/div[2]/div/div/div/div[1]/div/button[1] 
+2021-01-22 14:37:35,789 - BasePage - INFO - 元素已点击
+2021-01-22 14:37:38,835 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[1]/div/div/div[11]/div[2]/iframe 
+2021-01-22 14:37:41,899 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[1]/div[2]/input 
+2021-01-22 14:37:42,110 - BasePage - INFO - 已输入/上传至 ' zhr-api-autotest ' 
+2021-01-22 14:37:42,159 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[3]/div[2]/div/div/div[3]/div/div[2]/input 
+2021-01-22 14:37:42,242 - BasePage - INFO - 已输入/上传至 ' C:\Users\Hongru.Zhang\Documents\PyProjects\UITestFramework\Test_resources\images\many.jpg ' 
+2021-01-22 14:37:42,294 - BasePage - INFO - find ' 开始上传 ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[3]/div[2]/div/div/div[1]/div/div[2] 
+2021-01-22 14:37:42,395 - BasePage - INFO - 元素已点击
+2021-01-22 14:37:45,445 - BasePage - INFO - find ' 知道了！ ' success by xpath value: /html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[1]/div/table/tr[2]/td/button 
+2021-01-22 14:37:45,491 - BasePage - INFO - 元素已点击
+2021-01-22 14:37:45,532 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[1]/div/div/div[11]/div[2]/iframe 
+2021-01-22 14:37:48,592 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[4]/div[2]/div/div/div[3]/div/div[2]/input 
+2021-01-22 14:37:48,675 - BasePage - INFO - 已输入/上传至 ' C:\Users\Hongru.Zhang\Documents\PyProjects\UITestFramework\Test_resources\images\many.jpg ' 
+2021-01-22 14:37:48,761 - BasePage - INFO - find ' 开始上传 ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[4]/div[2]/div/div/div[1]/div/div[2] 
+2021-01-22 14:37:48,837 - BasePage - INFO - 元素已点击
+2021-01-22 14:37:51,879 - BasePage - INFO - find ' 知道了！ ' success by xpath value: /html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[1]/div/table/tr[2]/td/button 
+2021-01-22 14:37:51,925 - BasePage - INFO - 元素已点击
+2021-01-22 14:37:51,960 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[1]/div/div/div[11]/div[2]/iframe 
+2021-01-22 14:37:55,062 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[5]/div/div[2] 
+2021-01-22 14:37:55,248 - BasePage - INFO - 元素已点击
+2021-01-22 14:37:55,919 - BasePage - INFO - find ' 高铁材料 ' success by xpath value: /html/body/div[3]/div/div[1]/div[1]/div/div/div[4]/span 
+2021-01-22 14:37:56,025 - BasePage - INFO - 元素已点击
+2021-01-22 14:37:56,187 - BasePage - INFO - find ' zhr自动化测试用型号（勿删） ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[6]/div[2]/div[13]/label 
+2021-01-22 14:37:56,280 - BasePage - INFO - 元素已点击
+2021-01-22 14:37:56,569 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[7]/div[2]/input 
+2021-01-22 14:37:56,798 - BasePage - INFO - 已输入/上传至 ' zzz ' 
+2021-01-22 14:37:56,866 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[8]/div[2]/input 
+2021-01-22 14:37:57,079 - BasePage - INFO - 已输入/上传至 ' zzz ' 
+2021-01-22 14:37:57,126 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[9]/div[2]/input 
+2021-01-22 14:37:57,258 - BasePage - INFO - 已输入/上传至 ' zzz ' 
+2021-01-22 14:37:57,306 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[10]/div[2]/input 
+2021-01-22 14:37:57,445 - BasePage - INFO - 已输入/上传至 ' zzz ' 
+2021-01-22 14:37:57,482 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[11]/div[2]/input 
+2021-01-22 14:37:57,582 - BasePage - INFO - 已输入/上传至 ' 100 ' 
+2021-01-22 14:37:57,626 - BasePage - INFO - find ' 是 ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[12]/div[2]/div[1] 
+2021-01-22 14:37:57,886 - BasePage - INFO - 元素已点击
+2021-01-22 14:37:58,021 - BasePage - INFO - find ' 是 ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/form/div/div/div[13]/div[2]/div[1] 
+2021-01-22 14:37:58,124 - BasePage - INFO - 元素已点击
+2021-01-22 14:37:58,171 - BasePage - INFO - find ' 下一步 ' success by xpath value: /html/body/div[2]/div/div[2]/div/div/button 
+2021-01-22 14:37:58,268 - BasePage - INFO - 元素已点击
+2021-01-22 14:38:01,378 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[1]/div/div[2]/div[11]/div[2]/iframe 
+2021-01-22 14:38:04,453 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/div/form/div/div[2]/div[2]/div/div[2]/input[1] 
+2021-01-22 14:38:04,596 - BasePage - INFO - 元素已点击
+2021-01-22 14:38:04,656 - BasePage - INFO - find ' zhr自动化测试用品牌（勿删） ' success by xpath value: /html/body/div[3]/div/div[1]/div[1]/div/div/div/span 
+2021-01-22 14:38:04,805 - BasePage - INFO - 元素已点击
+2021-01-22 14:38:04,872 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/div/form/div/div[2]/div[3]/div/div[2] 
+2021-01-22 14:38:04,966 - BasePage - INFO - 元素已点击
+2021-01-22 14:38:09,892 - BasePage - INFO - find ' zhr自动化测试供应商（勿删） ' success by xpath value: /html/body/div[3]/div/div[1]/div[1]/div[1]/div/div/label/span[3] 
+2021-01-22 14:38:09,992 - BasePage - INFO - 元素已点击
+2021-01-22 14:38:10,045 - BasePage - INFO - find ' 关闭 ' success by xpath value: /html/body/div[3]/div/div[1]/div[1]/div[2]/a[2]/span 
+2021-01-22 14:38:10,149 - BasePage - INFO - 元素已点击
+2021-01-22 14:38:10,217 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/div/form/div/div[2]/div[4]/div[2]/input 
+2021-01-22 14:38:10,345 - BasePage - INFO - 已输入/上传至 ' 100 ' 
+2021-01-22 14:38:10,396 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/div/form/div/div[2]/div[5]/div[2]/input 
+2021-01-22 14:38:10,531 - BasePage - INFO - 已输入/上传至 ' 100 ' 
+2021-01-22 14:38:10,642 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/div/form/div/div[2]/div[7]/div/div[3]/div/div[2]/input 
+2021-01-22 14:38:10,771 - BasePage - INFO - 已输入/上传至 ' C:\Users\Hongru.Zhang\Documents\PyProjects\UITestFramework\Test_resources\images\many.jpg ' 
+2021-01-22 14:38:10,852 - BasePage - INFO - find ' 开始上传 ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/div/div[1]/div/div/div/form/div/div[2]/div[7]/div/div[1]/div/div[2] 
+2021-01-22 14:38:10,938 - BasePage - INFO - 元素已点击
+2021-01-22 14:38:13,987 - BasePage - INFO - find ' 知道了！ ' success by xpath value: /html/body/div[1]/div/div[3]/div[2]/div/div[2]/div[1]/div/table/tr[2]/td/button 
+2021-01-22 14:38:14,033 - BasePage - INFO - 元素已点击
+2021-01-22 14:38:14,070 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[1]/div/div[2]/div[11]/div[2]/iframe 
+2021-01-22 14:38:17,127 - BasePage - INFO - find ' 完成 ' success by xpath value: /html/body/div[2]/div/div[2]/div/div/button[2] 
+2021-01-22 14:38:17,203 - BasePage - INFO - 元素已点击
+2021-01-22 14:38:20,264 - BasePage - INFO - find ' 保存成功 ' success by xpath value: /html/body/div[1]/div/div/div[2]/div/div[2]/div[1]/div/table/tr[1]/td 
+2021-01-22 14:38:38,389 - BasePage - INFO - find '  ' success by id  value: user 
+2021-01-22 14:38:38,501 - BasePage - INFO - 已输入/上传至 ' admin ' 
+2021-01-22 14:38:38,558 - BasePage - INFO - find '  ' success by id  value: pwd 
+2021-01-22 14:38:38,657 - BasePage - INFO - 已输入/上传至 ' 123456 ' 
+2021-01-22 14:38:38,701 - BasePage - INFO - find ' 登录 ' success by xpath value: /html/body/div[2]/div/div[2]/form/div[3]/button 
+2021-01-22 14:38:40,329 - BasePage - INFO - 元素已点击
+2021-01-22 14:38:40,404 - BasePage - INFO - find ' 订单管理 ' success by xpath value: /html/body/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/div[1]/div/div/ul/li/ul/li[5]/div/span[2] 
+2021-01-22 14:38:40,553 - BasePage - INFO - 元素已点击
+2021-01-22 14:38:41,100 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/iframe 
+2021-01-22 14:38:44,295 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/form/div[3]/div[2]/input 
+2021-01-22 14:38:44,441 - BasePage - INFO - 已输入/上传至 ' 52101230 ' 
+2021-01-22 14:38:44,482 - BasePage - INFO - find ' 查询 ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/form/button 
+2021-01-22 14:38:44,582 - BasePage - INFO - 元素已点击

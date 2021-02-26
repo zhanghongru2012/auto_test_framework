@@ -1,0 +1,8 @@
+2021-01-29 14:01:02,011 - BasePage - INFO - find '  ' success by id  value: user 
+2021-01-29 14:01:02,108 - BasePage - INFO - 已输入/上传至 ' admin ' 
+2021-01-29 14:01:02,259 - BasePage - INFO - find '  ' success by id  value: pwd 
+2021-01-29 14:01:02,409 - BasePage - INFO - 已输入/上传至 ' 123456 ' 
+2021-01-29 14:01:02,444 - BasePage - INFO - find ' 登录 ' success by xpath value: /html/body/div[2]/div/div[2]/form/div[3]/button 
+2021-01-29 14:01:03,672 - BasePage - INFO - 元素已点击
+2021-01-29 14:01:03,719 - BasePage - INFO - find ' 文章管理 ' success by xpath value: /html/body/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/div[1]/div/div/ul/li/ul/li[2]/div/span[2] 
+2021-01-29 14:01:03,758 - BasePage - INFO - 元素已点击

@@ -1,0 +1,18 @@
+2021-01-29 14:06:07,166 - BasePage - INFO - find '  ' success by id  value: user 
+2021-01-29 14:06:07,282 - BasePage - INFO - 已输入/上传至 ' admin ' 
+2021-01-29 14:06:07,329 - BasePage - INFO - find '  ' success by id  value: pwd 
+2021-01-29 14:06:07,411 - BasePage - INFO - 已输入/上传至 ' 123456 ' 
+2021-01-29 14:06:07,448 - BasePage - INFO - find ' 登录 ' success by xpath value: /html/body/div[2]/div/div[2]/form/div[3]/button 
+2021-01-29 14:06:08,785 - BasePage - INFO - 元素已点击
+2021-01-29 14:06:08,829 - BasePage - INFO - find ' 品类管理 ' success by xpath value: /html/body/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/div[1]/div/div/ul/li/ul/li[10]/div/span[2] 
+2021-01-29 14:06:08,957 - BasePage - INFO - 元素已点击
+2021-01-29 14:06:09,287 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/iframe 
+2021-01-29 14:06:12,356 - BasePage - INFO - find ' 添加型号 ' success by xpath value: /html/body/div[2]/div/div[2]/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div[1]/div/div[4]/div[6]/div/a[2]/span 
+2021-01-29 14:06:12,464 - BasePage - INFO - 元素已点击
+2021-01-29 14:06:15,510 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[1]/div/div/div[11]/div[2]/iframe 
+2021-01-29 14:06:18,607 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[2]/div/div/div/div[1]/div/div/form/div[1]/div[2]/div[1]/div[2]/input 
+2021-01-29 14:06:18,819 - BasePage - INFO - 已输入/上传至 ' ZhrAutoTestModel ' 
+2021-01-29 14:06:18,895 - BasePage - INFO - find ' 否 ' success by xpath value: /html/body/div[2]/div/div[2]/div/div/div/div[1]/div/div/form/div[1]/div[2]/div[2]/div[2]/div[2]/label 
+2021-01-29 14:06:18,979 - BasePage - INFO - 元素已点击
+2021-01-29 14:06:19,025 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[2]/div/div/div/div[1]/div/div/form/div[4]/div[2]/div/div/div[3]/div/div[2]/input 
+2021-01-29 14:06:19,111 - BasePage - INFO - 已输入/上传至 ' C:\Users\Hongru.Zhang\Documents\PyProjects\UITestFramework\Test_resources\images\many.jpg ' 

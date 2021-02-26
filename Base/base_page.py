@@ -6,8 +6,8 @@ from Base.logger import Logger
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.support.select import Select
 
 
 logger = Logger(logger="BasePage").getlog()
@@ -37,7 +37,7 @@ class BasePage(object):
             element = WebDriverWait(self.driver, 10, 0.5).until(
                 EC.visibility_of_element_located((By.ID, selector_value)))
             try:
-                logger.info("find \' %s \' 成功 "
+                logger.info("find \' %s \' success "
                             "by %s  value: %s " % (element.text, selector_by, selector_value))
             except NoSuchElementException as e:
                 logger.error("NoSuchElementException: %s" % e)
@@ -48,15 +48,15 @@ class BasePage(object):
         elif selector_by == "c" or selector_by == 'class_name':
             element = WebDriverWait(self.driver, 10, 0.5).until(EC.visibility_of_element_located((By.CLASS_NAME, selector_value)))
         elif selector_by == "l" or selector_by == 'link_text':
-            element = WebDriverWait(self.driver, 10, 0.5).until(EC.visibility_of_element_located((By.CSS_SELECTOR,selector_value)))
+            element = WebDriverWait(self.driver, 10, 0.5).until(EC.visibility_of_element_located((By.CSS_SELECTOR, selector_value)))
         elif selector_by == "p" or selector_by == 'partial_link_text':
-            element = WebDriverWait(self.driver, 10, 0.5).until(EC.visibility_of_element_located((By.PARTIAL_LINK_TEXT,selector_value)))
+            element = WebDriverWait(self.driver, 10, 0.5).until(EC.visibility_of_element_located((By.PARTIAL_LINK_TEXT, selector_value)))
         elif selector_by == "t" or selector_by == 'tag_name':
-            element = WebDriverWait(self.driver, 10, 0.5).until(EC.visibility_of_element_located((By.TAG_NAME,selector_value)))
+            element = WebDriverWait(self.driver, 10, 0.5).until(EC.visibility_of_element_located((By.TAG_NAME, selector_value)))
         elif selector_by == "x" or selector_by == 'xpath':
             try:
-                element = WebDriverWait(self.driver, 10, 0.5).until(EC.visibility_of_element_located((By.XPATH,selector_value)))
-                logger.info("find \' %s \' 成功 "
+                element = WebDriverWait(self.driver, 10, 0.5).until(EC.visibility_of_element_located((By.XPATH, selector_value)))
+                logger.info("find \' %s \' success "
                             "by %s value: %s " % (element.text, selector_by, selector_value))
             except NoSuchElementException as e:
                 logger.error("NoSuchElementException: %s" % e)
@@ -111,12 +111,12 @@ class BasePage(object):
     # 保存图片
     def get_windows_img(self):
 
-        file_path = os.path.dirname(os.path.abspath('.')) + '\Test_resourse\Screenshots\\'
+        file_path = os.path.dirname(os.path.abspath('.')) + '\Test_resources\Screenshots\\'
         rq = time.strftime('%Y%m%d_%H%M%S', time.localtime(time.time()))
         screen_name = file_path + rq + '.png'
         try:
             self.driver.get_screenshot_as_file(screen_name)
-            logger.info("已获取截图并保存至路径 : \Screenshots")
+            logger.info("已获取截图并保存至路径 : /Screenshots")
         except NameError as e:
             logger.error("截图失败! %s" % e)
             self.get_windows_img()
@@ -138,9 +138,9 @@ class BasePage(object):
         el.clear()
         try:
             el.send_keys(text)
-            logger.info("已输入至 \' %s \' " % text)
+            logger.info("已输入/上传至 \' %s \' " % text)
         except NameError as e:
-            logger.error("输入失败 %s" % e)
+            logger.error("输入/上传失败 %s" % e)
             self.get_windows_img()
 
     # 获取元素文案
@@ -150,6 +150,15 @@ class BasePage(object):
             return el.text
         except Exception as e:
             logger.error("未找到底层文案：%s" % e)
+            self.get_windows_img()
+
+    # 获取隐藏文案
+    def get_attribute(self, selector):
+        el = self.find_element(selector)
+        try:
+            return el.get_attribute("textContent")
+        except Exception as e:
+            logger.error('未找到文案：%s' % e)
             self.get_windows_img()
 
     # switch to window
@@ -190,9 +199,34 @@ class BasePage(object):
         self.driver.excute_script(js, others)
 
     # 进度条
+    def excute_jindutiao_up(self):
+        ActionChains(self.driver).send_keys(Keys.PAGE_UP).perform()
+    def excute_jindutiao_down(self):
+        ActionChains(self.driver).send_keys(Keys.PAGE_DOWN).perform()
     def move_jindutiao(self, selector):
         self.driver.excute_script("arguments[0].scrollIntoView()",
                                   self.find_element(selector))
+    def move_jindutiao_down(self):
+        self.driver.excute_script('var q=document.documentElement.scrollTop=10000')
+
+    def move_jindutiao_js(self, js_code, locator):
+        self.driver.execute_script(js_code, self.find_element(locator))
+
+    # 键盘操作
+    def keybord_left(self, locator):
+        locator.send_keys(Keys.ARROW_LEFT)
+
+    def keybord_right(self, locator):
+        locator.send_keys(Keys.ARROW_RIGHT)
+
+    def keybord_up(self, locator):
+        locator.send_keys(Keys.ARROW_UP)
+
+    def keybord_down(self, locator):
+        locator.send_keys(Keys.ARROW_DOWN)
+
+    def keybord_esc(self, locator):
+        locator.send_keys(Keys.ESCAPE)
 
     @staticmethod
     def sleep(seconds):

@@ -1,0 +1,13 @@
+2021-01-22 15:16:19,794 - BasePage - INFO - find '  ' success by id  value: user 
+2021-01-22 15:16:19,946 - BasePage - INFO - 已输入/上传至 ' admin ' 
+2021-01-22 15:16:19,999 - BasePage - INFO - find '  ' success by id  value: pwd 
+2021-01-22 15:16:20,092 - BasePage - INFO - 已输入/上传至 ' 123456 ' 
+2021-01-22 15:16:20,139 - BasePage - INFO - find ' 登录 ' success by xpath value: /html/body/div[2]/div/div[2]/form/div[3]/button 
+2021-01-22 15:16:21,719 - BasePage - INFO - 元素已点击
+2021-01-22 15:16:21,781 - BasePage - INFO - find ' 订单管理 ' success by xpath value: /html/body/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/div[1]/div/div/ul/li/ul/li[5]/div/span[2] 
+2021-01-22 15:16:21,969 - BasePage - INFO - 元素已点击
+2021-01-22 15:16:22,517 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/iframe 
+2021-01-22 15:16:25,817 - BasePage - INFO - find '  ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/form/div[3]/div[2]/input 
+2021-01-22 15:16:26,028 - BasePage - INFO - 已输入/上传至 ' 52101230 ' 
+2021-01-22 15:16:26,076 - BasePage - INFO - find ' 查询 ' success by xpath value: /html/body/div[2]/div/div[1]/div/div/form/button 
+2021-01-22 15:16:26,221 - BasePage - INFO - 元素已点击

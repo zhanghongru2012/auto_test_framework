@@ -1,9 +1,0 @@
-第94行： import StringIO 改为 import io
-第539行：self.outputBuffer = StringIO.StringIO() 改为self.outputBuffer = io.BytesIO()
-第642行：if not rmap.has_key(cls): 改为 if not cls in rmap:
-第772行：ue = e.decode('latin-1') 改成 ue = e
-第776行：uo = o.decode ('latin-1') 改成 uo=o
-第768行：uo = o 改成 uo = o.decode('utf-8')
-第774行：ue = e 改成 ue = e.decode('utf-8')
-第631行：print >>sys.stderr, '\nTime Elapsed: %s' % (self.stopTime-self.startTime) 改成 print('\nTime Elapsed: %s' % (self.stopTime-self.startTime),file=sys.stderr)
-第118行：self.fp.write(s) 改为 self.fp.write(bytes(s,'UTF-8'))

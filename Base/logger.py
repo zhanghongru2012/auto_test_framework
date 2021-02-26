@@ -11,7 +11,7 @@ class Logger(object):
         self.logger.setLevel(logging.DEBUG)
         # 创建一个handler，用于写入日志文件
         rq = time.strftime('%Y%m%d_%H%M%S', time.localtime(time.time()))
-        log_path = os.path.abspath('.')+'\Test_resourse\Logs\\'
+        log_path = os.path.abspath('.')+'\Test_resources\Logs\\'
         log_name = log_path + rq + '.log'
         fh = logging.FileHandler(log_name, encoding='utf-8')
         fh.setLevel(logging.INFO)
