@@ -8,7 +8,7 @@ logger = Logger(logger="BrowserEngine").getlog()
 
 
 class BrowserEngine(object):
-    dir = os.path.abspath('.') + '\\Test_resources'
+    dir = os.path.abspath('.') + '\\TestResources'
     # 当前版本：86.0.4044.198
     chrome_driver_path = dir + '\\Tools\\chromedriver.exe'
 
