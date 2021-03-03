@@ -20,10 +20,7 @@ class BrowserEngine(object):
         file_path = self.dir + '/Configs/config.ini'
         config.read(file_path, encoding='UTF-8')
         browser = config.get("browserType", "browserName")
-        # url = config.get("server", "URL_HIGHWAY")
-        # url = config.get("server", "URL")
-        # url = config.get("server", "URL57")
-        url = config.get("server", "URL_ZHAOYUAN")
+        url = config.get("server", "URL")
         if browser == "Chrome":
             driver = webdriver.Chrome(self.chrome_driver_path)
 

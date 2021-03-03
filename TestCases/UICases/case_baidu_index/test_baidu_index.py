@@ -20,7 +20,7 @@ class TestOaReceiveDocument(unittest.TestCase, BasePage):
     def test_recv_process(self):
         index_page = IndexHomePage(self.driver)
         index_page.type_search('python')
-        index_page.search_submit_btn()
+        index_page.send_submit_btn()
         self.assertEqual(1, 1)   # 随便写了个断言，只是个示例，请按实际情况来写断言
 
 
